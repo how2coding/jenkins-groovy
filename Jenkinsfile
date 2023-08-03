@@ -8,6 +8,9 @@ pipeline {
            
             steps {
                sh "echo deploy to production"
+               def common = load "common.groovy"
+
+                common.mycommoncode()
             }
             
         }

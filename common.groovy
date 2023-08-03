@@ -1,0 +1,5 @@
+def mycommoncode(){
+
+}
+
+return this
