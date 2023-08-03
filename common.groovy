@@ -1,5 +1,8 @@
 def mycommoncode(){
-    println("mycommoncode")
+      node {
+     
+            println("mycommoncode")
+      }
 }
 
 return this
