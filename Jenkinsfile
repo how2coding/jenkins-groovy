@@ -1,5 +1,5 @@
 // Jenkinsfile (Scripted Pipeline)
-node("build") { // node/agent
+node() { // node/agent
 
   stage('Stage 1') {
     def example = load "common.groovy"
